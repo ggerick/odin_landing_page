@@ -8,8 +8,9 @@ body {
 }
 
 div {
-    border: 1px solid red;
-    flex: 1 1 0; 
+    flex: 1 1 0;
+    /* border: 1px solid red;
+    padding: 1px; */
 }
  
 
@@ -24,21 +25,83 @@ div {
     font-weight: 600;
 }
 
+.quotediv {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    
+}
+
+.quote {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 250px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 25px;
+    flex-grow: 3;
+}
+
+
 .blue-areadiv {
     display: flex;
     align-items: center;
     justify-content: center;
     
-    
 }
+
 
 .bluething {
     flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 850px;
-    height: 200px;
+    height: 150px;
     background-color: #3882F6;
     border-radius: 10px;
+    color: #F9FAF8;
 }
+
+.actiondiv {
+    font-size: 20px;
+    font-weight: 550;
+    
+}
+
+.actiondiv2 {
+    color: #E5E7EB;
+}
+
+.action-container {
+    flex: none;
+    display: flex;
+    gap: 100px;
+}
+
+.signup {
+    flex: none;
+    width: 120px;
+    height: 35px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: 700;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
 .footer {
     display: flex;
     align-items: center;
@@ -47,6 +110,7 @@ div {
     flex-shrink: 0;
     color: #E5E7EB;
     padding: 15px;
+    
 }
 ul {
      font-size: 18px;
