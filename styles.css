@@ -3,16 +3,26 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 div {
     flex: 1 1 0;
-    /* border: 1px solid red;
-    padding: 1px; */
+    /* border: 1px solid red; */
+   
+    padding: 10px;
 }
- 
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.headerimage {
+    height: 250px;
+    width: 500px;
+    opacity: 0.89;
+    
+}
 
 .header {
     display: flex;
@@ -25,13 +35,59 @@ div {
     font-weight: 600;
 }
 
+.headerExtend {
+    background-color: #1F2937;
+    
+}
+
+.aaa {
+    width: 400px;
+}
+
+.headerExtend-container {
+    flex: none;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.infodiv {
+    text-align: center;
+}
+
+.title {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info {
+    max-width: 200px;
+}
+
+
 .quotediv {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    display: flex;
-    
 }
 
 .quote {
@@ -52,7 +108,7 @@ div {
 }
 
 
-.blue-areadiv {
+.blue-areadiv, .headerExtend, .bluething, .footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,14 +118,12 @@ div {
 
 .bluething {
     flex: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 850px;
     height: 150px;
     background-color: #3882F6;
     border-radius: 10px;
     color: #F9FAF8;
+    
 }
 
 .actiondiv {
@@ -97,15 +151,16 @@ div {
     border-radius: 10px;
     border: 2px solid white;
     font-weight: 700;
-    cursor: pointer;
     flex-shrink: 0;
     font-size: 16px;
+    align-self: center;
+}
+
+.signup2 {
+    border: 2px solid #3882F6 ;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-grow: 0;
     flex-shrink: 0;
     color: #E5E7EB;
@@ -113,12 +168,10 @@ div {
     
 }
 ul {
-     font-size: 18px;
-    
+    font-size: 18px;
     list-style: none;
     display: flex;
     gap: 10px;
-    
     padding: 0;
     margin: 0;
     
